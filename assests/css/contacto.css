@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fdd1b6; /* Cambiado a blanco */
+    text-align: center;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none; /* Elimina la línea subrayada */
+    color: #541f14; /* Cambiado a negro */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9ded3;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #541f14;
+}
+
+section {
+    padding: 20px;
+}
+/*formulario*/
+/* Estilos para la sección de contacto */
+#contact {
+    max-width: 600px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra la sección horizontalmente */
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-content {
+    text-align: center; /* Centra el contenido dentro de la sección */
+}
+
+#contact-form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    text-align: left; /* Alinea el texto a la izquierda dentro del formulario */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
